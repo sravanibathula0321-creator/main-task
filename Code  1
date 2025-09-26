@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps in Travel Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+        }
+        header {
+            background: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px auto;
+            border-radius: 10px;
+            max-width: 700px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #1e90ff;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #1e90ff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DevOps in Travel Web Applications</h1>
+        <p>How DevOps powers modern travel booking platforms</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Flights</a>
+        <a href="#">Hotels</a>
+        <a href="#">Bookings</a>
+        <a href="#">Support</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>✈️ Flight Booking</h2>
+            <p>With DevOps, flight booking apps deploy updates quickly. This ensures 
+               real-time flight schedules, ticket availability, and secure payments.</p>
+            <a href="#" class="btn">Book a Flight</a>
+        </div>
+
+        <div class="card">
+            <h2>🏨 Hotel Reservation</h2>
+            <p>DevOps helps hotel booking apps scale during peak holiday seasons. 
+               It provides fast updates on room availability and customer reviews.</p>
+            <a href="#" class="btn">Reserve a Hotel</a>
+        </div>
+
+        <div class="card">
+            <h2>🚗 Travel Packages</h2>
+            <p>Using CI/CD pipelines, travel platforms launch new offers faster. 
+               DevOps automation ensures smooth updates and great user experience.</p>
+            <a href="#" class="btn">Explore Packages</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Travel Web App with DevOps | Demo Project</p>
+    </footer>
+
+</body>
+</html>
